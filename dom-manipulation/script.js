@@ -22,5 +22,6 @@ function showRandomQuote(random) {
   random.innerHTML="div";
 }  ;
 function AddQuoteForm(random) {
-  Math.random(random);
+  Math.random(random); 
+  const addquote = createAddQuoteForm;
 }
