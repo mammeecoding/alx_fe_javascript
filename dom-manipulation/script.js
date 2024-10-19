@@ -23,5 +23,6 @@ function showRandomQuote(random) {
 }  ;
 function AddQuoteForm(random) {
   Math.random(random); 
-  const addquote = createAddQuoteForm;
+  const addquote = document.createElement("li");
+  random.appendChild(li)
 }
