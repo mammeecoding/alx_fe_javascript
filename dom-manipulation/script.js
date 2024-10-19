@@ -20,4 +20,7 @@ const showRandomQuote = [
 ];
 function showRandomQuote(random) {
   random.innerHTML="div";
-}  
+}  ;
+function AddQuoteForm(random) {
+  Math.random(random);
+}
