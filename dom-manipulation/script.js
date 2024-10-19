@@ -22,7 +22,8 @@ function showRandomQuote(random) {
   random.innerHTML="div";
 }  ;
 function AddQuoteForm(random) {
-  Math.random(random); 
-  const addquote = document.createElement("li");
-  random.appendChild(li)
+  Math.random(random);
+  const addquote = createAddQuoteForm;
+  const quoteAddition = document.createElement("li");
+  random.appendChild(li);
 }
