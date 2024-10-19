@@ -18,3 +18,6 @@ const showRandomQuote = [
     category: "Russell Baker"
   }
 ];
+function showRandomQuote(random) {
+  random.innerHTML="div";
+}  
