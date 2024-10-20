@@ -52,5 +52,10 @@ export const  Quotes = ("http://api.quotable.io/random");
    application/json = "Blob";
   const userJason = JSON.stringify(text);
   }
+function populateCategories(e) {
+  function filterQuotes(q) {
+  }
+}
+
   const ExportQuotes = addquote();
 
