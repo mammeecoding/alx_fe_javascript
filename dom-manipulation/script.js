@@ -53,6 +53,7 @@ export const  Quotes = ("http://api.quotable.io/random");
   const userJason = JSON.stringify(text);
   }
 function populateCategories(e) {
+    categoryFilter.map();
   function filterQuotes(q) {
   }
 }
