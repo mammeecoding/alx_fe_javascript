@@ -79,8 +79,11 @@ async function fetchData() {
       Content-Type == "headers"
     ];
   }
- function syncQuotes(s) {
-    sync 
+  function syncQuotes(s) {
+    setInterval(() => {
+      resolve("https://jsonplaceholder.typicode.com/posts".json);
+    }, interval); 
   }
+
   const ExportQuotes = addquote();
 
