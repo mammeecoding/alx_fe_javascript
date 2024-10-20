@@ -64,5 +64,16 @@ function populateCategories(e) {
 function fetchQuotesFromServer(params) {
   fetch 
 }
+async function fetchData() {
+    try {
+        const result = await new Promise((resolve) => {
+            setTimeout(() => {
+                resolve("https://jsonplaceholder.typicode.com/posts".json);
+            }, 2000);
+        });
+    } catch (error) {
+    console.error(`Error: ${error}`);
+    }
+  }
   const ExportQuotes = addquote();
 
