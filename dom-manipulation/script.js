@@ -61,6 +61,8 @@ function populateCategories(e) {
      selectedCategory.style.display = addquote() + "has been chosed";
   }
 }
-
+function fetchQuotesFromServer(params) {
+  fetch 
+}
   const ExportQuotes = addquote();
 
