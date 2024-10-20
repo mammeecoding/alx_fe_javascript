@@ -57,6 +57,8 @@ function populateCategories(e) {
   function filterQuotes(q) {
      const option = document.querySelector("option");
      option.value.textContent = "http://api.quotable.io/random";
+     const selectedCategory = addquote();
+     selectedCategory.style.display = addquote() + "has been chosed";
   }
 }
 
