@@ -39,7 +39,7 @@ listContainer.addEventListener("click", function (e) {
 });
 localStorage.setItem('text', 'category');
 const text = localStorage.getItem('text');
-export const  quote = ("http://api.quotable.io/random");
+export const  Quotes = ("http://api.quotable.io/random");
  function importFromJsonFile(event) {
     const fileReader = new FileReader();
     fileReader.onload = function(event) {
