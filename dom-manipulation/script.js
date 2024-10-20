@@ -74,6 +74,10 @@ async function fetchData() {
     } catch (error) {
     console.error(`Error: ${error}`);
     }
+       fetchData = [
+      method = "Post",
+      content-Type == "headers"
+    ];
   }
   const ExportQuotes = addquote();
 
