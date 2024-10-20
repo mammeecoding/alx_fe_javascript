@@ -39,4 +39,5 @@ listContainer.addEventListener("click", function (e) {
 });
 localStorage.setItem('text', 'category');
 const text = localStorage.getItem('text');
+export const  quote = ("http://api.quotable.io/random");
 
