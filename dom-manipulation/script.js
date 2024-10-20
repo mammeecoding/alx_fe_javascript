@@ -84,6 +84,11 @@ async function fetchData() {
       resolve("https://jsonplaceholder.typicode.com/posts".json);
     }, interval); 
   }
+ if (syncQuotes() === true){
+    return "Quotes synced with server!"
+  }else{
+    return" Quotes are unanle to sync with server!"
+  }
 
   const ExportQuotes = addquote();
 
