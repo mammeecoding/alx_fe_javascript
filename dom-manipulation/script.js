@@ -40,4 +40,13 @@ listContainer.addEventListener("click", function (e) {
 localStorage.setItem('text', 'category');
 const text = localStorage.getItem('text');
 export const  quote = ("http://api.quotable.io/random");
-
+ function importFromJsonFile(event) {
+    const fileReader = new FileReader();
+    fileReader.onload = function(event) {
+      const importedQuotes = JSON.parse(event.target.result);
+      quotes.push(...importedQuotes);
+      saveQuotes();
+      alert('Quotes imported successfully!');
+    };
+    fileReader.readAsText(event.target.files[0]);
+  }
