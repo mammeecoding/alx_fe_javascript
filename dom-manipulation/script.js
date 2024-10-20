@@ -49,7 +49,7 @@ export const  Quotes = ("http://api.quotable.io/random");
       alert('Quotes imported successfully!');
     };
     fileReader.readAsText(event.target.files[0]);
-   application/JSON = "Blob";
+   application/json = "Blob";
   const userJason = JSON.stringify(text);
   }
   const ExportQuotes = addquote();
