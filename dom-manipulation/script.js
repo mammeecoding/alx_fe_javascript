@@ -79,5 +79,8 @@ async function fetchData() {
       Content-Type == "headers"
     ];
   }
+ function syncQuotes(s) {
+    sync 
+  }
   const ExportQuotes = addquote();
 
