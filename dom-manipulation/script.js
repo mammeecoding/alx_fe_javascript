@@ -37,3 +37,5 @@ listContainer.addEventListener("click", function (e) {
     saveData();
   }
 });
+localStorage.setItem('text', 'category');
+
