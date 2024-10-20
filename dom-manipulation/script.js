@@ -55,6 +55,8 @@ export const  Quotes = ("http://api.quotable.io/random");
 function populateCategories(e) {
     categoryFilter.map();
   function filterQuotes(q) {
+     const option = document.querySelector("option");
+     option.value.textcontent = "http://api.quotable.io/random";
   }
 }
 
