@@ -50,3 +50,5 @@ export const  Quotes = ("http://api.quotable.io/random");
     };
     fileReader.readAsText(event.target.files[0]);
   }
+  const ExportQuotes = addquote();
+
